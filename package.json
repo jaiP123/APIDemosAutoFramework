@@ -1,0 +1,22 @@
+{
+  "name": "APIDemosAutoFramework",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.16.9",
+    "@wdio/cli": "^9.0.9",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/mocha-framework": "^9.0.8",
+    "appium-uiautomator2-driver": "^3.7.9"
+  },
+  "scripts": {
+    "test-android": "wdio run ./config/wdio.conf.android.js"
+  },
+  "dependencies": {
+    "@wdio/appium-service": "^9.0.9",
+    "@wdio/spec-reporter": "^9.0.8",
+    "appium": "^2.0.1"
+  }
+}
